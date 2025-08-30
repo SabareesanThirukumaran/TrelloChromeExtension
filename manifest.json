@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Trello to Google Calendar",
+  "version": "1.0",
+  "description": "Sync Trello cards with Google Calendar.",
+  "permissions": [
+    "identity",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "Trello -> GCal"
+  }
+}
